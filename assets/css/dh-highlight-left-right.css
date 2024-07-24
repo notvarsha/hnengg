@@ -1,0 +1,26 @@
+.dh-heading-lg {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(174,5,16);
+}
+
+.dh-highlight-left {
+  text-align: right;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+@media (max-width:991px) {
+  .dh-highlight-left {
+    border-right-style: none;
+  }
+}
+
+@media (max-width:767px) {
+  .dh-heading-lg {
+    font-weight: bold;
+    font-size: 70px;
+    color: #0257fe;
+  }
+}
+

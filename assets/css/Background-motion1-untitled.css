@@ -1,0 +1,43 @@
+.example-box {
+  background-image: url("../../assets/img/banners/safety-banner.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 200;
+  z-index: 1;
+}
+
+.example-box * {
+  z-index: 2;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.background-shapes {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5076px;
+  background-size: 100%;
+  animation: 120s infiniteScroll linear infinite;
+  background-repeat-x: repeat;
+  /*background-image: url(../../assets/img/banners/safety-banner.png);*/
+  /*color: rgb(0, 55, 118, 0.70);*/
+}
+
